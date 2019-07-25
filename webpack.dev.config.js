@@ -60,6 +60,10 @@ module.exports = {
         }
       },
       {
+        test: /\.css$/,
+        loader: ['style-loader', 'css-loader']
+      },
+      {
         test: /\.(png|jpe?g|gif)(\?.*)?$/,
         loader: 'url-loader',
         options: {
@@ -81,7 +85,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.min.js']
+    extensions: ['.ts', '.tsx', '.js', '.min.js', '.css']
   },
   devServer: {
     // contentBase: path.join(__dirname, "dist"),

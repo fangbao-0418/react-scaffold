@@ -1,0 +1,27 @@
+/* #stage {
+  color: red;
+} */
+.stage {
+  color: yellow;
+}
+#stage {
+  color: pink;
+  width: 100px;
+  height: 100px;
+  background: black;
+}
+#stage:hover {
+  color: red;
+}
+div:hover {
+  color: red;
+}
+div {
+  color: green;
+}
+/* body #app div {
+  color: black;
+} */
+body div {
+  color: blue;
+}

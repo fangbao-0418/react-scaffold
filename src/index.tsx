@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import Dome from './Demo1'
+import Dome from './Demo5'
+import './styles/app'
 class Main extends React.Component {
   public state = {
     stage: 'stage'
@@ -14,9 +15,7 @@ class Main extends React.Component {
   }
   render () {
     return (
-      <Dome
-        stage={this.state.stage}
-      />
+      <Dome />
     )
   }
 }
