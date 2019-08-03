@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./webpack.dev.config.js"
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config ./webpack.dev.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
@@ -37,6 +37,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "dependencies": {
+    "dva": "^2.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

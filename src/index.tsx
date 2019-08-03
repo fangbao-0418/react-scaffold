@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import Dome from './Demo5'
-import './styles/app'
+// import './styles/app'
+import './dva/app'
 class Main extends React.Component {
   public state = {
     stage: 'stage'
@@ -19,7 +20,7 @@ class Main extends React.Component {
     )
   }
 }
-ReactDom.render(
-  <Main />,
-  document.getElementById('app')
-)
+// ReactDom.render(
+//   <Main />,
+//   document.getElementById('app')
+// )

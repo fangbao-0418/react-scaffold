@@ -1,0 +1,7 @@
+.header li {
+    cursor: pointer;
+}
+.content {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
