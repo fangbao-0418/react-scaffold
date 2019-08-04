@@ -1,4 +1,5 @@
-export default (app: any) => {
+import { DvaInstance } from 'dva'
+export default (app: DvaInstance) => {
     app.model({
       namespace: 'b',
       state: 0,

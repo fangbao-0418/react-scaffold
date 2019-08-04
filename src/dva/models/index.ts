@@ -1,6 +1,7 @@
-import count from './count'
+import { DvaInstance } from 'dva'
+import a from './a'
 import b from './b'
-export function useModel(app: any) {
-    count(app)
+export function useModel(app: DvaInstance) {
+    a(app)
     b(app)
 }
