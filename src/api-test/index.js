@@ -1,0 +1,2 @@
+import './definePropty'
+// require('./definePropty')
